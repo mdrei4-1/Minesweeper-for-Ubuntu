@@ -43,7 +43,7 @@ void checkMines(boardSpace board [][20]){
   for (int i = 0; i < 20; i++){ //check every board position
     for (int j = 0; j < 20; j++){
       if (board[i][j].isMine == false){ //if the board position is not a mine
-        /*Do a whole shit ton of test cases
+        /*Do a whole ton of test cases
         We need a test case for every possible direction to make sure that all of them are valid and grab the total adjacent mines for each position
         Each space that isn't a mine will have to check 8 different positions
         Remember that i is the row, j is the column, and the larger i is, the lower it is on the board*/
